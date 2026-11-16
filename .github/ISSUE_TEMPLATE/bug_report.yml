@@ -1,0 +1,41 @@
+name: Bug Report
+description: Report a bug, documentation error, or unexpected behavior
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue!
+        **Security notice:** If this is a security vulnerability, please do NOT use this form. Email `security@chronolox.com` directly.
+  - type: input
+    id: component
+    attributes:
+      label: Component / Application
+      description: Which tool, document, or specification is affected? (e.g., chronolox-heir, chronolox-cli, secret-maker, specs)
+      placeholder: "e.g., chronolox-cli / specs"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Operating System / Environment
+      description: OS distribution, version, and architecture (e.g., Ubuntu 24.04 amd64, macOS 15 arm64, Windows 11)
+      placeholder: "e.g., macOS 15.1 (Apple Silicon)"
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what happened.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Exact steps or command-line commands to reproduce the issue.
+      placeholder: |
+        1. Run command '...'
+        2. Expected output '...'
+        3. Observed error '...'
+    validations:
+      required: true

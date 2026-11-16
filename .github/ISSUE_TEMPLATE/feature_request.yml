@@ -1,0 +1,29 @@
+name: Feature or Specification Request
+description: Suggest an enhancement, template idea, or specification clarification
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting improvements to the Chronolox ecosystem!
+  - type: input
+    id: title-input
+    attributes:
+      label: Proposal Title
+      placeholder: "e.g., Add support for Linux ARM64 in chronolox-heir CLI"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Motivation
+      description: What challenge or use-case does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution / Alternative
+      description: Describe your proposed solution or how you envision this working.
+    validations:
+      required: true
