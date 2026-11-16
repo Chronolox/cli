@@ -15,7 +15,7 @@ This repository hosts official, pre-compiled binary distributions, release signa
 
 Chronolox CLI is the cross-platform command-line utility for developers, creators, and operators: creating, updating, inspecting, and notarizing time-locked secrets, managing autonomous capsules (`.clox`), and validating time-lock cryptographic guarantees.
 
-All builds are compiled with zero dynamic library dependencies and cross-platform targets (Linux, macOS, Windows) using reproducible build flags. Pre-built binaries are available on the [Releases](https://github.com/Chronolox/cli/releases) page.
+All builds are compiled with zero dynamic library dependencies and cross-platform targets (Linux, macOS, Windows) using reproducible build flags. Pre-built binaries are available on the [Releases](https://github.com/Chronolox/cli/releases) page. For a guided installer with automatic platform detection, see the [Downloads & Installation](https://chronolox.com/downloads) page.
 
 ---
 
